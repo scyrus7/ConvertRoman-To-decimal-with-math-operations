@@ -54,12 +54,15 @@ Test Cases
 6
 \
 I / II / III
+\
 > 0.166
 \
 I + II * III
+\
 > 7
 \
 > I * II + III
+\
 5
 \
 > ( I + II ) * III
