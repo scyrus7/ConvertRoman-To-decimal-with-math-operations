@@ -1,5 +1,6 @@
 # Python program to convert Roman Numerals
 # to Numbers
+import StringParser
 
 letters26 = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000}
 
@@ -54,7 +55,9 @@ def main():
         else:
             inputString += str(helperForMain(x[elem]))
 
-    print(eval(inputString))
+    # print(eval(inputString))
+
+    print(StringParser.evaluate(inputString))
 
 
 if __name__ == "__main__":
